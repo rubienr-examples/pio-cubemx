@@ -1,0 +1,20 @@
+// Src/rtc.c:xx: [low:style] Parameter 'rtcHandle' can be declared as pointer to const [constParameterPointer]
+constParameterPointer:*/Src/rtc.c
+
+// Src/spi.c:xx: [low:style] Parameter 'spiHandle' can be declared as pointer to const [constParameterPointer]
+constParameterPointer:*/Src/spi.c
+
+// Src/tim.c:xx: [low:style] Parameter 'tim_baseHandle' can be declared as pointer to const [constParameterPointer]
+constParameterPointer:*/Src/tim.c
+
+// Src/usbd_conf.c:xx: [low:style] Parameter 'pcdHandle' can be declared as pointer to const [constParameterPointer]
+constParameterPointer:*/Src/usbd_conf.c
+
+// Src/usbd_conf.c:619: [low:style] Variable 'mem' is not assigned a value. [unassignedVariable]
+unassignedVariable:*/Src/usbd_conf.c
+
+// Src/usbd_cdc_if.c:286: [low:style] Variable 'hcdc' can be declared as pointer to const [constVariablePointer]
+constVariablePointer:*/Src/usbd_cdc_if.c
+
+// Src/usbd_cdc_if.c:261: [low:style] Parameter 'Len' can be declared as pointer to const. However it seems that 'CDC_Receive_FS' is a callback function, if 'Len' is declared with const you might also need to cast function pointer(s). [constParameterCallback]
+constParameterCallback:*/Src/usbd_cdc_if.c

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pio-example"
+version = "0.1.0"
+description = "PlatformIO Example"
+authors = ["Raoul Rubien <rubienr@sbox.tugraz.at>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+platformio = "^6.1.13"
+stm32pio = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
